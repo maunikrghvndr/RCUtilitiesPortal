@@ -1,0 +1,18 @@
+﻿@using RisarcUtilitiesPortal.Models
+
+@model JobViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+@section Scripts
+{
+    @Html.IncludeVersionedJs("/scripts/Jobs/JobsJS.js")
+}
+
+@Html.Partial("_CreateJob")
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

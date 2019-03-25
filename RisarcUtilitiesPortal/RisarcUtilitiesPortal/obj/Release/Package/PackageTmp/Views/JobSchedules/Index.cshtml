@@ -1,0 +1,65 @@
+﻿@model IEnumerable<RisarcUtilitiesPortal.Models.JobScheduleViewModel>
+
+@{
+    ViewBag.Title = "Job Schedules";
+}
+
+<h3>Job Schedules</h3>
+
+<p>
+    @Html.ActionLink("Create New Schedule", "Create")
+</p>
+
+<div ng-app="JobSchedulesApp" ng-controller="JobSchedulesController">
+    <table id="js" class="table">
+        <tr class="active">
+            <th colspan="6">
+                <span>
+                    <label class="control-label">Filter Job Schedules by:</label>
+                    <label class="radio-inline"><input type="radio" name="rbNarrowSearch" value="JobName" />Job Name</label>
+                    <label class="radio-inline"><input type="radio" name="rbNarrowSearch" value="NextStartDate" />Next Start Date</label>
+                    <label class="radio-inline"><input type="radio" name="rbNarrowSearch" value="Both" checked="checked" />Both</label>
+                </span>
+                <input type="text" class="form-control" id="txtNS" ng-model="searchText" />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Job Name
+            </th>
+            <th>
+                Interval In Milliseconds
+            </th>
+            <th>
+                Runs On
+            </th>
+            <th>
+                Last Start Date Time
+            </th>
+            <th>
+                Next Start Date Time
+            </th>
+            <th></th>
+        </tr>
+        <tr ng-repeat="jobSchedule in jobSchedules | orderBy : 'JobDescription' | filter:narrowSearch">
+            <td>{{jobSchedule.JobDescription}}</td>
+            <td>{{jobSchedule.IntervalInMilliseconds}}</td>
+            <td>{{jobSchedule.RunDaysString}}</td>
+            <td>{{jobSchedule.StartDateTimeString}}</td>
+            <td>{{jobSchedule.NextStartDateTimeString}}</td>
+            <td>
+                <a href="@Request.Url.AbsoluteUri/Edit/{{jobSchedule.JobScheduleID}}">Edit</a>
+                <a href="@Request.Url.AbsoluteUri/Delete/{{jobSchedule.JobScheduleID}}">Delete</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+@section Scripts
+{
+    @Html.IncludeVersionedJs("/scripts/jquery-ui.min.js")
+    @Html.IncludeVersionedJs("/scripts/angular.min.js")
+    @Html.IncludeVersionedJs("/scripts/angular-sanitize.js")
+    @Html.IncludeVersionedJs("/scripts/JobSchedules/ng.js")
+    @Html.IncludeVersionedJs("/scripts/JobSchedules/jquery.timepicker.min.js")
+}

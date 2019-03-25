@@ -1,0 +1,230 @@
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.dll.config
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.pdb
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.exe
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.exe.config
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.rsp
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.exe
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.exe.config
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.rsp
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.AppContext.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Console.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.Compression.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Claims.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.ValueTuple.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.exe
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.exe.config
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.rsp
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Helpers.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Mvc.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Razor.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Razor.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Razor.xml
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.xml
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Razor.xml
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Helpers.xml
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Mvc.xml
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.csprojResolveAssemblyReference.cache
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.csproj.CoreCompileInputs.cache
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.csproj.CopyComplete
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.pdb
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Risarc.Enterprise.Repository.dll
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.xml
+C:\Users\riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\Riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Risarc.Enterprise.Repository.pdb
+C:\Users\Riaz\source\repos\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Risarc.Enterprise.Repository.dll.config
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.dll.config
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.pdb
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.exe
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.exe.config
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.rsp
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.exe
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.exe.config
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.rsp
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.AppContext.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Collections.Immutable.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Console.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.Process.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.Compression.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.Pipes.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Reflection.Metadata.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.AccessControl.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Claims.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Principal.Windows.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Threading.Thread.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.ValueTuple.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XPath.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.exe
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.exe.config
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.rsp
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\VBCSCompiler.exe
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\VBCSCompiler.exe.config
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.SqlServer.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Microsoft.Web.Infrastructure.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Risarc.Enterprise.Repository.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Helpers.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Mvc.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Razor.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Deployment.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Razor.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Risarc.Enterprise.Repository.pdb
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Risarc.Enterprise.Repository.dll.config
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.SqlServer.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Razor.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Deployment.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Razor.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Helpers.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Mvc.xml
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.csprojResolveAssemblyReference.cache
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.csproj.CoreCompileInputs.cache
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.csproj.CopyComplete
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.dll
+H:\Maunik_Ragha\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.pdb
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.dll.config
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\RisarcUtilitiesPortal.pdb
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.exe
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.exe.config
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csc.rsp
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.exe
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.exe.config
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\csi.rsp
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.AppContext.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Console.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.exe
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.exe.config
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\vbc.rsp
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Risarc.Enterprise.Repository.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Helpers.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Mvc.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Razor.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Razor.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Risarc.Enterprise.Repository.pdb
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Razor.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Webpages.Razor.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Helpers.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\bin\System.Web.Mvc.xml
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.csprojResolveAssemblyReference.cache
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.dll
+C:\Users\Raghavendra\Desktop\MNK utilities\Riaz'sPortal\RisarcUtilitiesPortal\RisarcUtilitiesPortal\obj\Debug\RisarcUtilitiesPortal.pdb

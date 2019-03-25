@@ -1,0 +1,101 @@
+﻿@model Risarc.Enterprise.Repository.Entities.Application
+
+@{
+    ViewBag.Title = "Register App";
+}
+
+@section Scripts
+{
+    @Html.IncludeVersionedJs("/scripts/Applications/ApplicationsJS.js")
+}
+
+@using (Html.BeginForm("Create", "Applications", FormMethod.Post, new { id = "appForm" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h3>Register - Application</h3>
+    <hr />
+    @Html.ValidationSummary(true)
+    @Html.HiddenFor(model => model.AppID)
+
+    <div class="form-group">
+        <label class="col-md-3">
+            Check if this is a Console App
+        </label>
+        <div class="col-md-9">
+            @Html.CheckBoxFor(model => model.IsConsoleApp, new { onclick = "ToggleForm(this.checked)" })
+            <span class="field-validation-error"></span>
+        </div>
+    </div>
+    <br />
+
+    <div id="consoleAppSpecific">
+        <div class="form-group">
+            @Html.LabelFor(model => model.AppName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="ConsoleAppName" value="" />
+                <a href="#" data-toggle="tooltip" title="Use the .exe name here. (eg: MyApp.exe)">?</a>
+                <span class="field-validation-error"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AppPath, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AppPath, new { htmlAttributes = new { @class = "form-control" } })
+                <a href="#" data-toggle="tooltip" title="Specify the path of the .exe here. (eg: \\172.30.1.21\d$\Apps\VBMSImporters\)">?</a>
+                <span class="field-validation-error"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="classLibSpecific">
+        <div class="form-group">
+            @Html.LabelFor(model => model.AppName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.AppName, new { @class = "form-control" })
+                <a href="#" data-toggle="tooltip" title="Specify a meaningful name. (eg: Tasks Manager)">?</a>
+                <span class="field-validation-error"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.AssemblyPath, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AssemblyPath, new { htmlAttributes = new { @class = "form-control" } })
+                <a href="#" data-toggle="tooltip" title="Specify the dll path that contains the class. (eg: D:\Apps\Risarc.AppJobs.Library.dll)">?</a>
+                <span class="field-validation-error"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ClassName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ClassName, new { htmlAttributes = new { @class = "form-control" } })
+                <a href="#" data-toggle="tooltip" title="Specify the class name including the namespace. (eg: Risarc.AppJobs.Library.TasksManager)">?</a>
+                <span class="field-validation-error"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-1">
+            <input id="create" type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+
+    <div class="alert alert-success alert-dismissable" id="msg" style="width:50%; margin-left:195px;">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+        <strong>Success!</strong> The new application has been registered. Below is the first instance of this app, add any needed
+        parameters and click the 'Create' button below.
+    </div>
+</div>
+}
+
+<div id="newJob">
+
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

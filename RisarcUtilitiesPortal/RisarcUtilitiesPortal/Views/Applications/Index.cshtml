@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Risarc.Enterprise.Repository.Entities.Application>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Applications</h3>
+
+<p>
+    @Html.ActionLink("Register an Application", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AppName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AppPath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsConsoleApp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssemblyPath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClassName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EnteredAt)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="max-width: 150px; word-wrap: break-word;">
+                @Html.DisplayFor(modelItem => item.AppName)
+
+            </td>
+            <td style="max-width: 150px; word-wrap: break-word;">
+                @Html.DisplayFor(modelItem => item.AppPath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsConsoleApp)
+            </td>
+            <td style="max-width: 150px; word-wrap: break-word;">
+                @Html.DisplayFor(modelItem => item.AssemblyPath)
+            </td>
+            <td style="max-width: 150px; word-wrap: break-word;">
+                @Html.DisplayFor(modelItem => item.ClassName)
+            </td>
+            <td>
+                @item.EnteredAt.ToShortDateString()
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.AppID })
+            </td>
+        </tr>
+    }
+
+</table>

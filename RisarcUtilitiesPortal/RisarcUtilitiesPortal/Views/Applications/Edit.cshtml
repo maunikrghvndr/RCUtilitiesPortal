@@ -1,0 +1,93 @@
+﻿@model Risarc.Enterprise.Repository.Entities.Application
+
+@{
+    ViewBag.Title = "Edit";
+    ViewBag.Caller = Request.UrlReferrer;
+}
+
+@section Scripts
+{
+    @Html.IncludeVersionedJs("/scripts/Applications/ApplicationsJS.js")
+}
+
+@using (Html.BeginForm("Edit", "Applications", FormMethod.Post, new { id = "appForm" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h3>Edit - Application</h3>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.AppID)
+        @Html.Hidden("NavigateTo", Request.UrlReferrer)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IsConsoleApp, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.CheckBoxFor(model => model.IsConsoleApp, new { style = "display:none;" })
+                <label class="label-form-control">@Model.IsConsoleApp</label>
+            </div>
+        </div>
+
+        <div id="consoleAppSpecific">
+            <div class="form-group">
+                @Html.LabelFor(model => model.AppName, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <input class="form-control" type="text" name="ConsoleAppName" value="@Model.AppName" />
+                    <span class="field-validation-error"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.AppPath, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.AppPath, new { htmlAttributes = new { @class = "form-control" } })
+                    <span class="field-validation-error"></span>
+                </div>
+            </div>
+        </div>        
+
+        <div id="classLibSpecific">
+            <div class="form-group">
+                @Html.LabelFor(model => model.AppName, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.AppName, new { htmlAttributes = new { @class = "form-control" } })
+                    <span class="field-validation-error"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.AssemblyPath, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.AssemblyPath, new { htmlAttributes = new { @class = "form-control" } })
+                    <span class="field-validation-error"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ClassName, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ClassName, new { htmlAttributes = new { @class = "form-control" } })
+                    <span class="field-validation-error"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group" style="display:none;">
+            @Html.LabelFor(model => model.EnteredAt, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EnteredAt)
+                <span class="field-validation-error"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    <a href=@ViewBag.Caller>Back</a>
+</div>

@@ -1,0 +1,14 @@
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\bin\Release\Risarc.Enterprise.Repository.dll.config
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\bin\Release\Risarc.Enterprise.Repository.dll
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\bin\Release\Risarc.Enterprise.Repository.pdb
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\bin\Release\EntityFramework.dll
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\bin\Release\EntityFramework.SqlServer.dll
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\bin\Release\EntityFramework.xml
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\bin\Release\EntityFramework.SqlServer.xml
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\obj\Release\Risarc.Enterprise.Repository.csprojResolveAssemblyReference.cache
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\obj\Release\Risarc.Enterprise.Repository.Migrations.Enterprisev1.resources
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\obj\Release\Risarc.Enterprise.Repository.csproj.GenerateResource.cache
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\obj\Release\Risarc.Enterprise.Repository.csproj.CoreCompileInputs.cache
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\obj\Release\Risarc.Enterprise.Repository.csproj.CopyComplete
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\obj\Release\Risarc.Enterprise.Repository.dll
+c:\users\riaz\source\repos\Risarc.Enterprise.Repository\Risarc.Enterprise.Repository\obj\Release\Risarc.Enterprise.Repository.pdb

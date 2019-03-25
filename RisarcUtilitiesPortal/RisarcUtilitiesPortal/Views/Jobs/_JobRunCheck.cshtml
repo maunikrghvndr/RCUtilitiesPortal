@@ -1,0 +1,35 @@
+﻿@using RisarcUtilitiesPortal.Models
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Run Job</h4>
+            </div>
+            <div class="modal-body">
+                @if (ViewBag.ScheduleJob)
+                {
+                    <p>
+                        The @Model.JobDescription Job is scheduled to run at @Model.NextStartDateTime.ToString(). <br />
+                        Are you sure you want to run this Job outside of it's scheduled time?
+                    </p>
+                }
+                else
+                {
+                    <p>
+                        Please confirm to start @Model.JobDescription Job.
+                    </p>
+                }
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="dontRunJob" data-dismiss="modal">Don't run</button>
+                <button type="button" class="btn btn-default" id="runJob" data-dismiss="modal" onclick="runJob(@Model.JobID)">Yes, run the job</button>
+            </div>
+        </div>
+
+    </div>
+</div>

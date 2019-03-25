@@ -1,0 +1,91 @@
+﻿@model RisarcUtilitiesPortal.Models.JobScheduleViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h3>Edit - Job Schedule</h3>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.JobScheduleID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.JobScheduleID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.JobScheduleID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.JobID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.JobID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.JobID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.JobDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.JobDescription, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.JobDescription, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IntervalInMilliseconds, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IntervalInMilliseconds, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.IntervalInMilliseconds, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Runs On</label>
+            <div class="col-md-10">
+                @for (int i = 0; i < Model.RunDays.Count; i++)
+                {
+                    <div>
+                        @Html.HiddenFor(x => x.RunDays[i].Name)
+                        @Html.CheckBoxFor(x => x.RunDays[i].Checked)
+                        @Html.LabelFor(x => x.RunDays[i].Checked, Model.RunDays[i].Name)
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NextStartDateTime, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NextStartDateTime, new { htmlAttributes = new { @class = "form-control  datetime-picker" } })
+                @Html.ValidationMessageFor(model => model.NextStartDateTime, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts
+{
+    @Html.IncludeVersionedJs("/scripts/jquery-ui.min.js")
+    @Html.IncludeVersionedJs("/scripts/angular.min.js")
+    @Html.IncludeVersionedJs("/scripts/angular-sanitize.js")
+    @Html.IncludeVersionedJs("/scripts/JobSchedules/ng.js")
+    @Html.IncludeVersionedJs("/scripts/JobSchedules/jquery.timepicker.min.js")
+}
+<link href="~/Content/jquery-ui.css" rel="stylesheet" />
+<link href="~/scripts/JobSchedules/jquery.timepicker.min.css" rel="stylesheet" />

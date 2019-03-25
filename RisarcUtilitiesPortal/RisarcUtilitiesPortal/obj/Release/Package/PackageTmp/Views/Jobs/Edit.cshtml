@@ -1,0 +1,96 @@
+﻿@using RisarcUtilitiesPortal.Models
+@model JobViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    ViewBag.AppLink = @Url.Content("~") + "/Applications/Edit/" + Model.AppID;
+}
+
+@section Scripts
+{
+    @Html.IncludeVersionedJs("/scripts/Jobs/JobsJS.js")
+}
+
+<h3>Edit - Job</h3>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.JobID)
+
+        <div class="form-group row">
+            @Html.LabelFor(model => model.JobName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.JobName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.JobName)
+                @if (Model.DupJobName)
+                {
+                    <span class="field-validation-error">There is already a job having this name, try another name.</span>
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.JobDescription, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.JobDescription, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.JobDescription)
+                @if (Model.DescRequired)
+                {
+                    <span class="field-validation-error">The Description is a required field.</span>
+                }
+                @if (Model.DupJobDesc)
+                {
+                    <span class="field-validation-error">There is already a job having this description, try another description.</span>
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Instance of</label>
+            <div class="col-md-10">
+                <label class="control-label">
+                    <a href=@ViewBag.AppLink>@ViewData["AppName"].ToString()</a>
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.JobParameters, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.JobParameters, 10, 100, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.JobParameters)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Active, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Active)
+                @Html.ValidationMessageFor(model => model.Active)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Job Category</label>
+            <div class="col-md-10">
+                @Html.DropDownList("SelectedJobCategoryID", Model.JobCategories, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

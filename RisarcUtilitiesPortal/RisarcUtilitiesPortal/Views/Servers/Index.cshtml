@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Risarc.Enterprise.Repository.Entities.Server>
+
+@{
+    ViewBag.Title = "Servers";
+}
+
+<h3>Servers</h3>
+
+<p>
+    @Html.ActionLink("Add New Server", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ServerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ServerIP)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServerIP)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ServerID })
+        </td>
+    </tr>
+}
+
+</table>

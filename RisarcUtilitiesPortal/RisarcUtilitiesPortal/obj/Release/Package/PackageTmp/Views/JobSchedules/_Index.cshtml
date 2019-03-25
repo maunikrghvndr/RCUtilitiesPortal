@@ -1,0 +1,48 @@
+﻿@model IEnumerable<RisarcUtilitiesPortal.Models.JobScheduleViewModel>
+
+<table class="table">
+    <tr>
+        <th>
+            Job Name
+        </th>
+        <th>
+            Interval In Milliseconds
+        </th>
+        <th>
+            Runs On
+        </th>
+        <th>
+            Last Start Date Time
+        </th>
+        <th>
+            Next Start Date Time
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntervalInMilliseconds)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RunDaysString)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NextStartDateTime)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.JobScheduleID }) |
+                @Html.ActionLink("Remove Schedule", "Delete", new { id = item.JobScheduleID })
+            </td>
+        </tr>
+    }
+
+</table>

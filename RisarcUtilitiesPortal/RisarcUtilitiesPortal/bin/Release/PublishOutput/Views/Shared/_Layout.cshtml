@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Risarc Utilities Portal</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <link href="~/Content/Site.css?@DateTime.Now" rel="stylesheet" type="text/css" />
+    <script>
+        var origin = window.location.origin;
+        var logoutLocation = origin + "/SystemControl/Login/Login";
+    </script>
+    @RenderSection("Scripts", false)
+</head>
+<body>
+    <div class="navbar navbar-risarc navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                @Html.ActionLink("Risarc Utilities Portal", "Index", "Jobs", null, new { @class = "navbar-brand navbar-brand-menu" })
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    @if (!Request.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Login", "Login", "Login", null, new { @class = "navbar-brand-menu" })</li>
+                        <li>@Html.ActionLink("Register", "Register", "Login", null, new { @class = "navbar-brand-menu" })</li>
+                    }
+                    else if (Session["UserID"] != null)
+                    {
+                        <li><a class="navbar-brand-menu" href="~/Documentation/learn.html" target="_blank">Learn</a></li>
+                    }
+                </ul>
+                @if (Request.IsAuthenticated && Session["UserName"] != null)
+                {
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle navbar-brand-menu" data-toggle="dropdown" href="#">
+                                @Session["UserName"].ToString()
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Logout", "Logout", "Login", null, new { @class = "navbar-brand-menu" })</li>
+                            </ul>
+                        </li>
+                    </ul>
+                }
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle navbar-brand-menu" data-toggle="dropdown" href="#">
+                            Tasks
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Task Handling Jobs", "Index", "TaskHandlingJobs", null, new { @class = "navbar-brand-menu" })</li>
+                            <li>@Html.ActionLink("Task Categories", "Index", "TaskCategories", null, new { @class = "navbar-brand-menu" })</li>
+                            <li>@Html.ActionLink("Search Tasks", "Index", "Tasks", null, new { @class = "navbar-brand-menu" })</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle navbar-brand-menu" data-toggle="dropdown" href="#">
+                            System Control
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Servers", "Index", "Servers", null, new { @class = "navbar-brand-menu" })</li>
+                            <li>@Html.ActionLink("Job Servers", "Index", "JobServers", null, new { @class = "navbar-brand-menu" })</li>
+                            <li>@Html.ActionLink("Applications", "Index", "Applications", null, new { @class = "navbar-brand-menu" })</li>
+                            <li>@Html.ActionLink("Jobs", "Index", "Jobs", null, new { @class = "navbar-brand-menu" })</li>
+                            <li>@Html.ActionLink("Job Schedules", "Index", "JobSchedules", null, new { @class = "navbar-brand-menu" })</li>
+                            <li>@Html.ActionLink("Dependant Jobs", "Index", "DependantJobs", null, new { @class = "navbar-brand-menu" })</li>
+                            <li>@Html.ActionLink("Job Categories", "Index", "JobCategories", null, new { @class = "navbar-brand-menu" })</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-color:darkgoldenrod; height:5px;"></div>        
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Risarc Utilities Portal</p>
+        </footer>
+    </div>
+</body>
+</html>

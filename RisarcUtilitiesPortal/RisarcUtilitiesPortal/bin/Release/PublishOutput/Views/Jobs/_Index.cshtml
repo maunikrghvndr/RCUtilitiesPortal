@@ -1,0 +1,62 @@
+﻿@using RisarcUtilitiesPortal.Models
+@using Risarc.Enterprise.Repository.Constants
+@model IEnumerable<JobViewModel>
+
+    <table class="table">
+        <tr>
+            <th>
+                Job Description
+            </th>
+            <th>
+                Job Status
+            </th>
+            <th>
+                Status Time
+            </th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.ActionLink(item.JobDescription, "Edit", new { id = item.JobID })
+            </td>
+            <td>
+                @if (item.JobStatusTypeID == 6)
+                {
+                @Html.ActionLink(item.LastStatusDetail, "Index", "JobLogs", new { jobID = item.JobID }, new { @class = "joberror" })
+                }
+                else
+                {
+                @Html.ActionLink(item.LastStatusDetail + " - Last ran at " + item.LastStatusTime, "Index", "JobLogs", new { jobID = item.JobID }, null)
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastStatusTime)
+            </td>
+            <td>
+                @{
+                if (item.JobStatusTypeID == (int)JobStatusTypes.Running)
+                {
+                @Html.ActionLink("Stop", "JobAction", new { jobID = item.JobID, jobAction = "Stop" }, new { @class = "jobstop" })
+                }
+                else if (item.JobStatusTypeID == (int)JobStatusTypes.ReadyToRun)
+                {
+                @Html.ActionLink("Reset", "JobAction", new { jobID = item.JobID, jobAction = "Reset" }, new { @class = "jobreset" })
+                }
+                else if (item.JobStatusTypeID == (int)JobStatusTypes.Stopped)
+                {
+                <img src="~/Images/jobrun.png" alt="Run" class="jobrun" data-jobid=@item.JobID onclick="checkJobRun(this)" />
+                }
+                else if (item.JobStatusTypeID == (int)JobStatusTypes.StoppedWithError)
+                {
+                <img src="~/Images/jobrun.png" alt="Run" class="jobrun" data-jobid=@item.JobID onclick="checkJobRun(this)" />
+                }
+                }
+
+
+            </td>
+        </tr>
+        }
+    </table>

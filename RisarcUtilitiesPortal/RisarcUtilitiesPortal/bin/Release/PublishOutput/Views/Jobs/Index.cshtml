@@ -1,0 +1,35 @@
+﻿@using RisarcUtilitiesPortal.Models
+@model IEnumerable<JobViewModel>
+
+@{
+    ViewBag.Title = "System Control";
+}
+
+@section Scripts
+{
+    @Html.IncludeVersionedJs("/scripts/Jobs/JobsJS.js")
+}
+
+<br />
+<h3>Jobs</h3>
+
+<p>
+    @Html.ActionLink("Create New Job", "Create")
+</p>
+
+<table align="right" width="30%">
+    <tr>
+        <td align="right" class="form-group">Filter by Job Category:&nbsp;</td>
+        <td align="left">
+            @Html.DropDownList("JobCategoryID", Model.FirstOrDefault().JobCategories, new { @class = "form-control", style = "width:100%; max-width: 100%" })
+        </td>
+    </tr>
+</table>
+<br /><br />
+<div id="target">
+    @Html.Partial("_Index", Model);
+</div>
+<div id="checkAlert">
+
+</div>
+
